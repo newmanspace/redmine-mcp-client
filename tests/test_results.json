@@ -1,0 +1,44 @@
+{
+    "Redmine Content": {
+        "list_redmine_projects": {
+            "status": "PASS",
+            "data": "{\n  \"id\": 171,\n  \"name\": \"55\u6240\u5fae\u7eb3\u7c73\u90e8MES\",\n  \"identifier\": \"cetc_mems_mes\",\n  \"description\": \"\",\n  \"crea"
+        },
+        "list_my_redmine_issues": {
+            "status": "FAIL",
+            "error": "No content in result"
+        },
+        "search_redmine_issues": {
+            "status": "PASS",
+            "data": "{\n  \"id\": 78543,\n  \"subject\": \"Test Issue\",\n  \"description\": \"\",\n  \"status\": {\n    \"id\": 1,\n    \"nam"
+        },
+        "get_redmine_issue": {
+            "status": "PASS",
+            "data": "{\n  \"id\": 78542,\n  \"subject\": \"\u63a5\u53e3\u91cd\u63a8\u67e5\u8be2\u9519\u8bef\",\n  \"description\": \"1\uff1a\u63a5\u53e3\u91cd\u63a8\u67e5\u8be2\u9519\u8bef\uff0c\u672a\u663e\u793a\u53d1\u9001\u5931\u8d25\u7684\u63a5\u53e3\u4fe1\u606f\u5982\u56fe1-1\",\n  \"status"
+        },
+        "create_redmine_issue": {
+            "status": "PASS",
+            "data": "{\n  \"id\": 78544,\n  \"subject\": \"Test Issue\",\n  \"description\": \"\",\n  \"status\": {\n    \"id\": 1,\n    \"nam"
+        },
+        "update_redmine_issue": {
+            "status": "PASS",
+            "data": "{\n  \"id\": 78543,\n  \"subject\": \"Test Issue\",\n  \"description\": \"\",\n  \"status\": {\n    \"id\": 1,\n    \"nam"
+        },
+        "get_redmine_wiki_page": {
+            "status": "PASS",
+            "data": "{\n  \"id\": null,\n  \"title\": \"Wiki\",\n  \"text\": \"<h1>Redmine\u53d1\u7248\u8bf4\u660e</h1>\\r\\n\",\n  \"version\": 1,\n  \"created_"
+        },
+        "create_redmine_wiki_page": {
+            "status": "PASS",
+            "data": "{\n  \"error\": \"Validation error\",\n  \"details\": \"Resource already exists\",\n  \"type\": \"validation_error"
+        },
+        "update_redmine_wiki_page": {
+            "status": "PASS",
+            "data": "{\n  \"id\": null,\n  \"title\": \"TestPage\",\n  \"text\": \"Updated content\",\n  \"version\": 4,\n  \"created_on\": "
+        },
+        "search_entire_redmine": {
+            "status": "FAIL",
+            "error": "{\n  \"error\": \"Access denied\",\n  \"details\": \"Invalid authentication details\",\n  \"type\": \"auth_error\","
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "redmine": {
+      "transport": {
+        "type": "http",
+        "url": "http://YOUR_SERVER_IP:8000/mcp",
+        "headers": {
+          "X-Redmine-Token": "YOUR_REDMINE_TOKEN_HERE"
+        }
+      }
+    }
+  }
+}

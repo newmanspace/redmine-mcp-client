@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+scripts/dist/
+
+# Configuration
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Claude and local permissions
+.claude/
+settings.local.json
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "name": "redmine-mcp-client",
+  "version": "1.1.0",
+  "description": "Redmine MCP client plugin for Claude Code - provides Issue, Wiki, Project, Search, and Report Builder capabilities",
+  "author": {
+    "name": "Redmine MCP Contributors"
+  },
+  "license": "MIT",
+  "keywords": ["redmine", "mcp", "issue-tracking", "project-management", "reporting"],
+  "homepage": "https://github.com/newmanspace/redmine-mcp-server",
+  "mcpServers": "./.mcp.json"
+}

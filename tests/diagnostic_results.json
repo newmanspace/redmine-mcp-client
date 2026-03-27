@@ -1,0 +1,132 @@
+{
+    "list_redmine_projects": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": 171,\n  \"name\": \"55\u6240\u5fae\u7eb3\u7c73\u90e8MES\",\n  \"identifier\": \"cetc_mems_mes\",\n  \"description\": \"\",\n  \"crea"
+    },
+    "list_my_redmine_issues": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": 78544,\n  \"subject\": \"Test Issue\",\n  \"description\": \"\",\n  \"status\": {\n    \"id\": 1,\n    \"nam"
+    },
+    "search_redmine_issues": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": 78549,\n  \"subject\": \"Monitor\u76f8\u5173\u9875\u9762\u4f18\u5316\",\n  \"description\": \"Add&nbsp;monitor&nbsp;job\u754c\u9762\u4e0d\u662f100%\u6bd4\u4f8b"
+    },
+    "get_redmine_issue": {
+        "status": "FAIL",
+        "type": "CODE_BUG",
+        "error": "Error executing tool get_redmine_issue: name 'redmine_client' is not defined"
+    },
+    "create_redmine_issue": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"error\": \"Failed to create issue: Assignee cannot be blank, Due date cannot be blank\"\n}"
+    },
+    "update_redmine_issue": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": 78540,\n  \"subject\": \"Follow-up Issue referenced from Issue 78424\",\n  \"description\": \"This "
+    },
+    "get_redmine_data_catalog": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"schema\": \"warehouse\",\n  \"tables\": [\n    {\n      \"table_name\": \"ads_contribut"
+    },
+    "search_redmine_data_catalog": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"keyword\": \"issue\",\n  \"matching_tables\": [\n    \"dwd_issue_contributors\",\n    "
+    },
+    "execute_redmine_sql_query": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"data\": [\n    {\n      \"?column?\": 1\n    }\n  ],\n  \"row_count\": 1,\n  \"execution"
+    },
+    "save_redmine_report_template": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": false,\n  \"error\": \"No template class found in code\"\n}"
+    },
+    "preview_redmine_template": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"template_name\": \"\u9879\u76ee\u65e5\u62a5\",\n  \"preview_dat"
+    },
+    "get_redmine_template_versions": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"versions\": [\n    {\n      \"template_id\""
+    },
+    "rollback_redmine_template_version": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": false,\n  \"error\": \"Already at version 1\"\n}"
+    },
+    "compare_redmine_template_versions": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": false,\n  \"error\": \"One or both versions not found\"\n}"
+    },
+    "activate_redmine_template_version": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"active_version\": 1\n}"
+    },
+    "get_redmine_active_template_version": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"active_version\": 1,\n  \"current_version"
+    },
+    "get_redmine_report_template": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"metadata\": {\n    \"sys_id\": 136,\n    \"t"
+    },
+    "list_redmine_report_templates": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"templates\": [\n    {\n      \"sys_id\": 137,\n      \"template_id\": \"tpl_employee_"
+    },
+    "execute_redmine_report_template": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"template_name\": \"\u9879\u76ee\u65e5\u62a5\",\n  \"version\": 1"
+    },
+    "run_redmine_template_now": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"template_id\": \"tpl_project_daily\",\n  \"template_name\": \"\u9879\u76ee\u65e5\u62a5\",\n  \"version\": 1"
+    },
+    "subscribe_redmine_template": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"success\": true,\n  \"subscription_id\": \"mcp_user:tpl_project_daily:email\",\n  \"message\": \"Subscrib"
+    },
+    "send_redmine_subscription_reports": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"report_type\": \"daily\",\n  \"template_id\": null,\n  \"total\": 0,\n  \"success\": 0,\n  \"failed\": 0,\n  \"d"
+    },
+    "search_entire_redmine": {
+        "status": "FAIL",
+        "type": "PERMISSION",
+        "error": "{\n  \"error\": \"Access denied\",\n  \"details\": \"Invalid authentication details\",\n  \"type\": \"auth_error\","
+    },
+    "get_redmine_wiki_page": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": null,\n  \"title\": \"Wiki\",\n  \"text\": \"<h1>Redmine\u53d1\u7248\u8bf4\u660e</h1>\\r\\n\",\n  \"version\": 1,\n  \"created_"
+    },
+    "create_redmine_wiki_page": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": null,\n  \"title\": \"DiagPage\",\n  \"text\": \"Diag\",\n  \"version\": 1,\n  \"created_on\": \"2026-03-27"
+    },
+    "update_redmine_wiki_page": {
+        "status": "PASS",
+        "type": "SUCCESS",
+        "data": "{\n  \"id\": null,\n  \"title\": \"DiagPage\",\n  \"text\": \"Diag2\",\n  \"version\": 2,\n  \"created_on\": \"2026-03-2"
+    }
+}
