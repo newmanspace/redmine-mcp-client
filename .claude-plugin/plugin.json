@@ -1,6 +1,6 @@
 {
   "name": "redmine-mcp-client",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Redmine MCP client plugin for Claude Code - provides Issue, Wiki, Project, Search, and Report Builder capabilities",
   "author": {
     "name": "Redmine MCP Contributors"
