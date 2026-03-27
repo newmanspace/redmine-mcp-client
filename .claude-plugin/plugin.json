@@ -6,7 +6,13 @@
     "name": "Redmine MCP Contributors"
   },
   "license": "MIT",
-  "keywords": ["redmine", "mcp", "issue-tracking", "project-management", "reporting"],
+  "keywords": [
+    "redmine",
+    "mcp",
+    "issue-tracking",
+    "project-management",
+    "reporting"
+  ],
   "homepage": "https://github.com/newmanspace/redmine-mcp-server",
   "mcpServers": "./.mcp.json"
 }

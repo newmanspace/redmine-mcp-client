@@ -6,7 +6,11 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 OUTPUT_DIR="${SCRIPT_DIR}/dist"
-VERSION="1.1.1"
+VERSION=$(cat "${PROJECT_DIR}/VERSION")
+
+# 自动同步版本号到 plugin.json
+echo -e "${YELLOW}同步版本号到 plugin.json (${VERSION})...${NC}"
+jq ".version = \"${VERSION}\"" "${PROJECT_DIR}/.claude-plugin/plugin.json" > "${PROJECT_DIR}/.claude-plugin/plugin.json.tmp" && mv "${PROJECT_DIR}/.claude-plugin/plugin.json.tmp" "${PROJECT_DIR}/.claude-plugin/plugin.json"
 
 # 颜色输出
 RED='\033[0;31m'
